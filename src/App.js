@@ -41,9 +41,6 @@ const GridWrapper = ({artist, artistData, imagen}) => (
         {artist.toUpperCase()}
       </span>
     </div>
-     <div className="grid_component_item">
-      <img src={imagen} alt={artist}/>
-    </div>
 
     <div className="grid_component_item2">
       <span>
@@ -51,6 +48,9 @@ const GridWrapper = ({artist, artistData, imagen}) => (
       </span>
     </div>
 
+     <div className="grid_component_item">
+      <img src={imagen} alt={artist}/>
+    </div>
     <div className="grid_component_item3">
       <span>
         {condensar(artistData.artist)}
