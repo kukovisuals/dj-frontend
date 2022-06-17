@@ -1,5 +1,6 @@
 # Favorite djs tracker
 
+## npm install
 
 
 ### `npm start`

@@ -1,16 +1,16 @@
-import {useEffect, useState} from 'react';
-import axios from 'axios';
+// import {useEffect, useState} from 'react';
+// import axios from 'axios';
 import './style.scss';
-// import data from './data/data.json';
+import data from './data/main.json';
 
 function App() {
-  const [data, setData] = useState()
-
-  useEffect(() => {
-    axios('http://localhost:9000/api/v1/main')
-      .then(res => setData(res.data.parties)  )
-      .catch(err => console.error(err))
-  },[])
+//   const [data, setData] = useState()
+// 
+//   useEffect(() => {
+//     axios('http://localhost:9000/api/v1/main')
+//       .then(res => setData(res.data.parties)  )
+//       .catch(err => console.error(err))
+//   },[])
 
   return (
     <div className="App">
